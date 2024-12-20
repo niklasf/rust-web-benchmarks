@@ -1,0 +1,9 @@
+[package]
+name = "hello-world-axum-tcmalloc"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+axum = "0.5"
+tcmalloc = "0.3.0"
+tokio = { version = "1", features = ["full"] }

@@ -1,8 +1,9 @@
 [package]
-name = "hello-world-hyper"
+name = "hello-world-axum-mimalloc"
 version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-hyper = { version = "0.14", features = ["full"] }
+axum = "0.5"
+mimalloc = "0.1.43"
 tokio = { version = "1", features = ["full"] }
